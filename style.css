@@ -1,0 +1,43 @@
+body {
+    background: rgba(1, 1, 248, 0.986);
+    font: normal 15pt sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 20pt;
+
+}
+
+section {
+    background:white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+strong {
+    font-size: 25pt;
+    font-weight: bolder;
+}
+
+div#msg, div#msg2  {
+    color: black;
+    font-weight: normal;
+    font-size: 20pt;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
