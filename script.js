@@ -29,7 +29,7 @@ function carregar() {
         document.body.style.background = '#604461'
         mensagem = 'uma ótima <strong>noite!</strong>'
 
-    } else if (hora >= 00 && hora < 6){
+    } else{
         img.src = 'fotomadrugada.png'
         document.body.style.background = '#424242'
         mensagem = 'uma ótima <strong>madrugada!</strong>'
