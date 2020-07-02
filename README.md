@@ -6,7 +6,7 @@ Tecnologias utilizadas: HTML5 + CSS3 + JavaScript
 Montagem básica do site em html.
 
 ## CSS3:
-Montagem basica do estilo do site.
+Montagem básica do estilo do site.
 
 ## JavaScript:
 Script de funcionamento do relógio e da transição de temas de acordo com o horário do dia.
