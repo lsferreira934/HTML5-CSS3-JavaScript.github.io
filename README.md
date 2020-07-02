@@ -1,4 +1,4 @@
 Projeto: Site de horas
 
-Tecnologia ultilizadas: HTML5 + CSS3 + JavaScript
+Tecnologias utilizadas: HTML5 + CSS3 + JavaScript
 
