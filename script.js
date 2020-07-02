@@ -24,12 +24,12 @@ function carregar() {
         document.body.style.background = '#e16a11'
         mensagem = ` uma ótima <strong>tarde!</strong>`
         
-    } else if (hora >= 18 && hora <= 24) {
+    } else if (hora >= 18 && hora < 00) {
         img.src = 'fotonoite.png'
         document.body.style.background = '#604461'
         mensagem = 'uma ótima <strong>noite!</strong>'
 
-    } else {
+    } else if (hora >= 00 && hora < 6){
         img.src = 'fotomadrugada.png'
         document.body.style.background = '#424242'
         mensagem = 'uma ótima <strong>madrugada!</strong>'
