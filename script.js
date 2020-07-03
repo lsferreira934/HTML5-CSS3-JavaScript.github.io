@@ -14,7 +14,7 @@ function carregar() {
     
     
 
-    if (hora >= 6 && hora <= 12) {
+    if (hora >= 6 && hora < 12) {
         img.src = 'fotomanha.png'
         document.body.style.background = '#e0ad1a'
         mensagem = 'uma ótima <strong>manhã!</strong>'
@@ -24,12 +24,12 @@ function carregar() {
         document.body.style.background = '#e16a11'
         mensagem = ` uma ótima <strong>tarde!</strong>`
         
-    } else if (hora >= 18 && hora < 23) {
+    } else if (hora >= 18 && hora <= 23) {
         img.src = 'fotonoite.png'
         document.body.style.background = '#604461'
         mensagem = 'uma ótima <strong>noite!</strong>'
 
-    } else if (hora >= 24 && hora < 6){
+    } else if (hora >= 0 && hora < 6){
         img.src = 'fotomadrugada.png'
         document.body.style.background = '#424242'
         mensagem = 'uma ótima <strong>madrugada!</strong>'
